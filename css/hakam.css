@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  background-image: url("../image/Topgrading-Interviews-01.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #5f5fff3b;
+}
+.logo {
+  position: absolute;
+  z-index: 2;
+  font-weight: normal;
+  font-size: 100px;
+  color: #353383;
+  background-color: #f5f4f770;
+  padding: 20px;
+}
+
+.main-section {
+  padding: 50px 50px;
+}
+.main-section h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #8b44dd;
+  text-align: center;
+}
+
+.skills {
+  background-color: #ccc;
+}
+.skills .skill {
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  padding: 10px;
+  margin: 20px;
+}
+.skills .skill p {
+  width: 100px;
+  text-align: center;
+}
+.skills .skill .progress {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  position: relative;
+}
+
+.skills .skill .progress span {
+  width: 95%;
+  height: 100%;
+  background-color: #8b44dd;
+  position: absolute;
+}
+
+.experian .box {
+  display: flex;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.experian .box .exp {
+  margin-right: 10px;
+  background-color: #eee;
+  padding: 20px;
+}
+.experian .box .exp .year {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.experian .box .exp p:nth-child(2) {
+  color: #444;
+  line-height: 1.5;
+}
+
+.contact {
+  padding: 50px 150px;
+  background-color: #f5ecff;
+}
+.contact .social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .social-media .social a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #5f5fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contact .social-media .social a i {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.about-me-text {
+  color: #5f5fff;
+  font-size:30px;
+  font-weight: bold;
+}
+.contact-title {
+  color: #5f5fff;
+}
